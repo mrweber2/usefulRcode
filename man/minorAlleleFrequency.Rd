@@ -24,6 +24,9 @@ mafHist(SNPmat)
   \item{minMAF}{
     filter out alleles below this allele frequency threshold
 }
+  \item{mafHist}{
+    matrix of SNP frequencies
+  }
 }
 \value{
     \item{minorAlleleFrequency }{Returns a vector of allele frequencies.}
@@ -44,6 +47,4 @@ mat <- matrix(runif(30), nrow=10, ncol=3)
 maf <- minorAlleleFrequency(mat)
 filteredMat <- filterSNPs(mat, minMAF = 0.05)
 mafHist(mat)
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-
+}
