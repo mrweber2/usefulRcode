@@ -1,0 +1,12 @@
+Package: usefulRcode
+Version: 0.0
+Date: 2018-10-25
+Title: SNP Allele Frequency Functions
+Authors@R: person("Matt", "Weber", role = c("aut", "cre"),
+                  email = "mrweber2@illinois.edu")
+Author: Matt Weber [aut, cre]
+Maintainer: Matt Weber <mrweber2@illinois.edu>
+Description: This package includes functions to calculate minor allele frequency, plot histograms of allele frequencies, and
+  filter SNP data based on minor allele frequencies.
+Url: https://github.com/mrweber2/usefulRcode
+License: GPL-3
